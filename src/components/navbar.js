@@ -16,7 +16,7 @@ const NavBar = () => {
     <NavWrapper>
       <div className="nav--center">
         <div className="nav--header">
-          <Link to="Bgamer/">
+          <Link to="/">
             <img src={logo} alt="bee gamer" />
           </Link>
           <button type="button" className="nav--toggle">

@@ -15,17 +15,17 @@ import {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Bgamer">
       <NavBar />
       <SideBar />
       <Routes>
-        <Route path="Bgamer/" element={<Home />} />
-        <Route path="Bgamer/about" element={<About />} />
-        <Route path="Bgamer/cart" element={<Cart />} />
-        <Route path="Bgamer/shop" element={<Products />} />
-        <Route path="Bgamer/shop/:id" element={<SingleProduct />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/shop" element={<Products />} />
+        <Route path="/shop/:id" element={<SingleProduct />} />
         <Route
-          path="Bgamer/checkout"
+          path="/checkout"
           element={
             <PrivateRoute>
               <Checkout />
