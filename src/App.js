@@ -19,13 +19,13 @@ function App() {
       <NavBar />
       <SideBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/shop" element={<Products />} />
-        <Route path="/shop/:id" element={<SingleProduct />} />
+        <Route path="Bgamer/" element={<Home />} />
+        <Route path="Bgamer/about" element={<About />} />
+        <Route path="Bgamer/cart" element={<Cart />} />
+        <Route path="Bgamer/shop" element={<Products />} />
+        <Route path="Bgamer/shop/:id" element={<SingleProduct />} />
         <Route
-          path="/checkout"
+          path="Bgamer/checkout"
           element={
             <PrivateRoute>
               <Checkout />
