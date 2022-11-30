@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bgamer/static/css/main.8c5b74b3.css",
-    "main.js": "/Bgamer/static/js/main.a1cea0ac.js",
+    "main.js": "/Bgamer/static/js/main.d70ed1b9.js",
     "static/media/about.webp": "/Bgamer/static/media/about.7981f716fa0a33d9917a.webp",
     "static/media/crypto.jpg": "/Bgamer/static/media/crypto.1abf97c018b82f4549f4.jpg",
     "static/media/Bgamer_Logo.png": "/Bgamer/static/media/Bgamer_Logo.0668fce327c47a421ae7.png",
@@ -9,10 +9,10 @@
     "static/media/account.svg": "/Bgamer/static/media/account.b8e953d36d79377146b80a81717b7c9f.svg",
     "index.html": "/Bgamer/index.html",
     "main.8c5b74b3.css.map": "/Bgamer/static/css/main.8c5b74b3.css.map",
-    "main.a1cea0ac.js.map": "/Bgamer/static/js/main.a1cea0ac.js.map"
+    "main.d70ed1b9.js.map": "/Bgamer/static/js/main.d70ed1b9.js.map"
   },
   "entrypoints": [
     "static/css/main.8c5b74b3.css",
-    "static/js/main.a1cea0ac.js"
+    "static/js/main.d70ed1b9.js"
   ]
 }
