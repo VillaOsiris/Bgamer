@@ -4,17 +4,17 @@ export const links = [
   {
     id: 1,
     text: "home",
-    url: "/",
+    url: "Bgamer/",
   },
   {
     id: 2,
     text: "about",
-    url: "/about",
+    url: "Bgamer/about",
   },
   {
     id: 3,
     text: "shop",
-    url: "/shop",
+    url: "Bgamer/shop",
   },
 ];
 
