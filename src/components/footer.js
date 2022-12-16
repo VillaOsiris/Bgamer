@@ -1,12 +1,18 @@
 import React from "react";
 import styled from "styled-components";
+import logo from "../assets/BgamerLogo.png";
+
 const Footer = () => {
   return (
     <Wrapper>
       <p>
-        &copy; {new Date().getFullYear()}
-        <span> Bgamer </span>
-        Meeh... no rights to reserve.
+        &copy; {new Date().getFullYear()}{" "}
+        <img
+          src={logo}
+          alt="Bgmaer logo"
+          style={{ height: "40px", margin: "-6px" }}
+        />{" "}
+        tribute to defunted Bgamer magazzine.
       </p>
     </Wrapper>
   );

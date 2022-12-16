@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../assets/Bgamer_Logo.png";
+import logo from "../assets/BgamerLogo.png";
 import { Link } from "react-router-dom";
 import { links } from "../utils/constants";
 import CartLink from "./cartLink";
