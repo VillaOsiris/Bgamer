@@ -43,7 +43,6 @@ const Wrapper = styled.section`
 
   .container {
     position: relative;
-    background: black;
     width: 200px;
     height: 250px;
     border-radius: 5px;
