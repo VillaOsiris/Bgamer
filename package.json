@@ -1,6 +1,6 @@
 {
   "homepage": "https://villaosiris.github.io/Bgamer/",
-  "name": "Bgamer",
+  "name": "bgamer",
   "version": "0.5.0",
   "private": false,
   "dependencies": {

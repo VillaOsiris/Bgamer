@@ -59,7 +59,7 @@ export const ProductsProvider = ({ children }) => {
     dispatch({ type: GET_SINGLE_POPULAR_BEGIN });
     try {
       // const response = await axios.get(url);
-      const singlePopular = games.find((item) => item.id === index);
+      const singlePopular = await games.find((item) => item.id === index);
       dispatch({
         type: GET_SINGLE_POPULAR_SUCCESS,
         payload: singlePopular,

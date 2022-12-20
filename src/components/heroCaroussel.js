@@ -18,8 +18,6 @@ const Hero = () => {
     fetchSinglePopular,
   } = useProductsContext();
 
-  console.log(popular);
-
   useEffect(() => {
     fetchSinglePopular(index);
   }, [index]);

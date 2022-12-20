@@ -1,5 +1,3 @@
-import React from "react";
-import { GiCompass, GiDiamondHard, GiStabbedNote } from "react-icons/gi";
 export const links = [
   {
     id: 1,
@@ -18,6 +16,12 @@ export const links = [
   },
 ];
 
+export const base_URL = "https://api.igdb.com/v4";
+
 export const products_url = "https://course-api.com/react-store-products";
 
 export const single_product_url = `https://course-api.com/react-store-single-product?id=`;
+
+export const client_id = "h4de3ziebciskx0us1m647qqazshau";
+
+export const client_secret = "029ydkx82bgqwcz3fh1xm4z7ogyfkm";

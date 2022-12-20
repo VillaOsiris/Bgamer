@@ -10,7 +10,7 @@ const Footer = () => {
         <img
           src={logo}
           alt="Bgmaer logo"
-          style={{ height: "40px", margin: "-6px" }}
+          style={{ height: "4rem", margin: "-6px" }}
         />{" "}
         tribute to defunted Bgamer magazzine.
       </p>
