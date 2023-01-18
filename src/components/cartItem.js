@@ -11,7 +11,7 @@ const CartItem = ({ id, image, name, price }) => {
     <Wrapper>
       <div className="title">
         <div className="container">
-          <img src={image} alt={name} />
+          <img src={process.env.PUBLIC_URL + image} alt={name} />
         </div>
         <h4 className="name">{name}</h4>
       </div>

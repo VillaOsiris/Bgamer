@@ -8,7 +8,7 @@ import { FilterProvider } from "./context/filter_context";
 import { UserProvider } from "./context/user_context";
 import { Auth0Provider } from "@auth0/auth0-react";
 
-// dev - ndmoqi6y.eu.auth0.com
+// dev-ndmoqi6y.eu.auth0.com
 // xhO65JvVn9Bq7rz3dzs3A57vYGVveLe7
 // http://localhost:3000
 
@@ -17,7 +17,7 @@ root.render(
   <Auth0Provider
     domain="dev-ndmoqi6y.eu.auth0.com"
     clientId="xhO65JvVn9Bq7rz3dzs3A57vYGVveLe7"
-    redirectUri={window.location.origin}
+    redirectUri="https://villaosiris.github.io/Bgamer/"
     cacheLocation="localstorage"
   >
     <UserProvider>

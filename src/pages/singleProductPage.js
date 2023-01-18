@@ -45,7 +45,7 @@ const SingleProductPage = () => {
           back to Shop
         </Link>
         <div className="content">
-          <img src={poster_image} alt={name} />
+          <img src={process.env.PUBLIC_URL + poster_image} alt={name} />
           <section className="content-info">
             <h2 className="name">{name}</h2>
             <h2 className="rating">{rating}</h2>

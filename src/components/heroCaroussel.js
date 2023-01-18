@@ -45,7 +45,11 @@ const Hero = () => {
     <Wrapper>
       <div className="hero" key={id}>
         <Link to={`/shop/${id}`} className="bg_img">
-          <img src={background_image} alt={name} className="bg_img" />
+          <img
+            src={process.env.PUBLIC_URL + background_image}
+            alt={name}
+            className="bg_img"
+          />
         </Link>
         <div>
           <div className="info">
@@ -61,19 +65,27 @@ const Hero = () => {
           <p className="rating">{rating}</p>
           <p className="price">{formatPrice(price)}</p>
         </div>
-        <button className="previous">
+        {/* <button className="previous">
           <FcPrevious />
         </button>
         <button className="next">
           <FcNext />
-        </button>
+        </button> */}
       </div>
       <div className="slider">
         {popular.map((item) => {
           const { id, name, poster_image } = item;
           return (
-            <figure key={id} onClick={() => setIndex(id)}>
-              <img src={poster_image} className="poster_img" alt={name} />
+            <figure
+              key={id}
+              onClick={() => setIndex(id)}
+              onMouseEnter={() => setIndex(id)}
+            >
+              <img
+                src={process.env.PUBLIC_URL + poster_image}
+                className="poster_img"
+                alt={name}
+              />
               <p>{name.substring(0, 20)}</p>
             </figure>
           );
@@ -149,16 +161,23 @@ const Wrapper = styled.section`
 
   figure {
     text-align: center;
-    &:nth-child(1),
-    &:nth-child(5) {
-      opacity: 0.35;
-      scale: 70%;
+    opacity: 0.65;
+    scale: 85%;
+    transition: 0.5s;
+    &:hover {
+      opacity: 1;
+      scale: 110%;
     }
-    &:nth-child(2),
-    &:nth-child(4) {
-      opacity: 0.65;
-      scale: 85%;
-    }
+    // &:nth-child(1),
+    // &:nth-child(5) {
+    //   opacity: 0.35;
+    //   scale: 70%;
+    // }
+    // &:nth-child(2),
+    // &:nth-child(4) {
+    //   opacity: 0.65;
+    //   scale: 85%;
+    // }
   }
 
   figure > p {

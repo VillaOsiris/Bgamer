@@ -12,7 +12,7 @@ const ListView = ({ products }) => {
         return (
           <article key={id}>
             <div className="container">
-              <img src={poster_image} alt={name} />
+              <img src={process.env.PUBLIC_URL + poster_image} alt={name} />
               <Link to={`/shop/${id}`} className="link">
                 <FaSearch />
               </Link>

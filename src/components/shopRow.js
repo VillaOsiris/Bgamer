@@ -27,7 +27,10 @@ const ShopRow = () => {
           {featured.map((game) => {
             return (
               <Link key={game.id} to={`/shop/${game.id}`} className="item">
-                <img src={game.poster_image} className="poster_img" />
+                <img
+                  src={process.env.PUBLIC_URL + game.poster_image}
+                  className="poster_img"
+                />
               </Link>
             );
           })}

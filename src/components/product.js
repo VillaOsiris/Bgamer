@@ -7,7 +7,7 @@ const Product = ({ poster_image, name, price, id }) => {
   return (
     <Wrapper>
       <div className="container">
-        <img src={poster_image} alt={name} />
+        <img src={process.env.PUBLIC_URL + poster_image} alt={name} />
         <Link to={`/shop/${id}`} className="link">
           <FaSearch />
         </Link>
